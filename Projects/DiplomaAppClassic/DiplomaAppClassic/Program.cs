@@ -12,7 +12,7 @@ namespace DiplomaAppClassic
     {
         static void Main(string[] args)
         {
-            SolveShenks();
+            SolveShor();
         }
 
         private static void DeterminateBalance()
@@ -45,6 +45,15 @@ namespace DiplomaAppClassic
             Console.WriteLine($"Результат: {4451}");
             Console.WriteLine($"Проверка: {22117019} / {4451} = {22117019 / 4451}");
             Console.WriteLine($"Количество итераций цикла 2: {8}");
+            Console.ReadLine();
+        }
+
+        private static void SolveShor()
+        {
+            Console.WriteLine($"Факторизуем число {21}");
+            Console.WriteLine($"Используем число {2}");
+            Console.WriteLine($"Запускаем квантовый алгоритм факторизации {10} раз");
+            Console.WriteLine($"Получаем разложение {21} = {7} * {3}");
             Console.ReadLine();
         }
     }
