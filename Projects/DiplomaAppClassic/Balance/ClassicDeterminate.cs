@@ -22,9 +22,6 @@ namespace Balance
 
             if (results.All(r => r == true) || results.All(r => r == false))
                 return FunctionType.Constant;
-            /*if (results.Count(r => r == true) == results.Count(r => r == false))
-                return FunctionType.Balanced;
-            return FunctionType.None;*/
             else return FunctionType.Balanced;
         }
     }    
